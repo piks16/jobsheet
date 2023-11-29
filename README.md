@@ -19,3 +19,28 @@
 
 5. Flow Control (Decision Making dan Looping):
    - Decision Making: Decision making statements digunakan untuk melaksana keputusan berdasarkan kondisi yang dicantumkan oleh komputer secara logis . Statements IF-ELSE digunakan untuk melaksana kondisi berdasarkan relational operators, sedang statements SWITCH-CASE digunakan untuk melaksana kondisi berdasarkan beberapa kondisi secara simultan . Statements IF-ELSE digunakan untuk melaksana blok kode jika kondisi dicantumkan oleh komputer secara logis, sedang statements SWITCH-CASE digunakan untuk melaksana blok kode jika salah satu dari beberapa kondisi dicantumkan oleh komputer secara simultan . Statements IF-ELSE digunakan untuk melaksana blok kode jika kondisi dicantumkan oleh komputer secara logis, sedang statements SWITCH-CASE digunakan untuk melaksana blok kode jika salah satu dari beberapa kondisi dicantumkan oleh komputer secara simultan . Kedua statement ini membantu dalam melaksana percabbing logis antara boolean expressions berdasarkan nilai boolean merekaikan operasi relasional terhadap merekaikan operasi aritmatika sebelumnya dilakukannya oleh komputer secara logis .
+6. Array
+- Definisi Array:
+- Array adalah sebuah variabel yang mengumpulkan elemen data dengan tipe yang sama dalam satu variabel. Setiap elemen dalam array disebut sebagai "index" atau "element", dan dapat diakses melalui angka yang berurutan (index) yang dimulai dari nol. Contoh array dengan tipe integer: `int arr[5] = {1, 2, 3, 4, 5};`
+- Indeks Array:
+- Indeks adalah angka yang digunakan untuk mengakses elemen dalam array. Indeks dimulai dari nol, dan setiap elemen dalam array memiliki indeks yang unik. Contoh penggunaan indeks untuk mengakses elemen dalam array: `int x = arr[2];`
+
+7. Fungsi dan Prosedur
+- Fungsi:
+- Fungsi adalah blok kode yang dapat dipanggil berulang kali dan dapat mengembalikan nilai. Fungsi di C dipengaruhi oleh parameter dan nilai kembalian. Contoh fungsi yang mengembalikan nilai: `int sum(int a, int b) { return a + b; }`
+- **Prosedur**:
+  - Prosedur adalah blok kode yang tidak mengembalikan nilai. Prosedur di C dipengaruhi oleh parameter, namun tidak mengembalikan nilai. Contoh prosedur: `void printArray(int arr[], int size) { for (int I = 0; I < size; i++) { printf("%d ", arr[i]); } printf("\n"); }`
+
+8. Pointer
+- Konsep Pointer:
+- Pointer adalah variabel yang menunjuk alamat memori suatu variabel atau konstanta. Pointer di C digunakan untuk menunjuk alamat memori dan mengakses nilai yang disimpan di alamat tersebut. Contoh penggunaan pointer untuk menunjuk alamat memori: `int x = 5; int *ptr = &x;`
+
+9. Enumerasi dan Structure
+- Enumerasi:
+- Enumerasi adalah sebuah tipe data baru yang dibuat dari kumpulan konstanta bernama. Enumerasi di C digunakan untuk menyimpan nilai-nilai konstanta dengan nama yang lebih mudah dipahami. Contoh enumerasi: `enum Color {RED, GREEN, BLUE};`
+- Structure (Struct):
+- Structure adalah sebuah tipe data kompleks yang menggabungkan beberapa variabel dengan tipe data yang berbeda dalam satu variabel. Structure di C digunakan untuk menyimpan beberapa variabel dalam satu entitas. Contoh structure: `struct Student { char name[50]; int roll_number; float gpa; };`
+
+10. File Handling in C
+- Operasi File:
+- File handling adalah proses penyimpanan dan pembukaan file eksternal dalam program C. File handling di C dilakukan melalui fungsi seperti fopen(), fclose(), fread(), fwrite(). Contoh pembukaan file eksternal: `FILE *fp = fopen("data.txt", "r");`
