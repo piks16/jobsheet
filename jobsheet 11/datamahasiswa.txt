@@ -1,0 +1,9 @@
+data mahasiswa 1:nama: fikri 
+nim: 23343040
+program studi: inf
+data mahasiswa 2:nama: dolly
+nim: 23343034
+program studi: inf
+data mahasiswa 3:nama: firman
+nim: 23343040
+program studi: inf
