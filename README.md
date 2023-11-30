@@ -1,4 +1,4 @@
-
+[![Header](https://github.com/piks16/jobsheet/blob/main/github-header-image.png)
 1. Pengantar Algoritma dan Pemrograman:
    - Algoritma: Algoritma adalah langkah-langkah terurut dan tepat untuk menyelesaikan masalah atau melakukan tugas. Ia tidak menggambarkan cara pemrosesan, melainkan fokus pada logika dan prosedur dari algoritma.
    - Pemrograman: Pemrograman adalah proses mengonversi algoritma menjadi bentuk yang dapat dijalankan oleh komputer. Ia melibatkan menggunakan bahasa pemrograman untuk menulis kode yang dapat dijalankan oleh komputer. Kode ini akan dieksekusi oleh prosesor, yang akan melakukan operasi yang diperlukan.
