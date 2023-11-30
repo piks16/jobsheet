@@ -21,9 +21,9 @@
 5. Flow Control (Decision Making dan Looping):
    - Decision Making: Decision making statements digunakan untuk melaksana keputusan berdasarkan kondisi yang dicantumkan oleh komputer secara logis . Statements IF-ELSE digunakan untuk melaksana kondisi berdasarkan relational operators, sedang statements SWITCH-CASE digunakan untuk melaksana kondisi berdasarkan beberapa kondisi secara simultan . Statements IF-ELSE digunakan untuk melaksana blok kode jika kondisi dicantumkan oleh komputer secara logis, sedang statements SWITCH-CASE digunakan untuk melaksana blok kode jika salah satu dari beberapa kondisi dicantumkan oleh komputer secara simultan . Statements IF-ELSE digunakan untuk melaksana blok kode jika kondisi dicantumkan oleh komputer secara logis, sedang statements SWITCH-CASE digunakan untuk melaksana blok kode jika salah satu dari beberapa kondisi dicantumkan oleh komputer secara simultan . Kedua statement ini membantu dalam melaksana percabbing logis antara boolean expressions berdasarkan nilai boolean merekaikan operasi relasional terhadap merekaikan operasi aritmatika sebelumnya dilakukannya oleh komputer secara logis .
 6. Array
-   - Definisi Array:
+- Definisi Array:
    - Array adalah sebuah variabel yang mengumpulkan elemen data dengan tipe yang sama dalam satu variabel. Setiap elemen dalam array disebut sebagai "index" atau "element", dan dapat diakses melalui angka yang berurutan (index) yang dimulai dari nol. Contoh array dengan tipe integer: `int arr[5] = {1, 2, 3, 4, 5};`
-   - Indeks Array:
+- Indeks Array:
    - Indeks adalah angka yang digunakan untuk mengakses elemen dalam array. Indeks dimulai dari nol, dan setiap elemen dalam array memiliki indeks yang unik. Contoh penggunaan indeks untuk mengakses elemen dalam array: `int x = arr[2];`
 
 7. Fungsi dan Prosedur
