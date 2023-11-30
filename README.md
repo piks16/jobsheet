@@ -27,9 +27,9 @@
    - Indeks adalah angka yang digunakan untuk mengakses elemen dalam array. Indeks dimulai dari nol, dan setiap elemen dalam array memiliki indeks yang unik. Contoh penggunaan indeks untuk mengakses elemen dalam array: `int x = arr[2];`
 
 7. Fungsi dan Prosedur
- Fungsi:
+Fungsi:
    - Fungsi adalah blok kode yang dapat dipanggil berulang kali dan dapat mengembalikan nilai. Fungsi di C dipengaruhi oleh parameter dan nilai kembalian. Contoh fungsi yang mengembalikan nilai: `int sum(int a, int b) { -return a + b; }`
- Prosedur:
+Prosedur:
   - Prosedur adalah blok kode yang tidak mengembalikan nilai. Prosedur di C dipengaruhi oleh parameter, namun tidak mengembalikan nilai. Contoh prosedur: `void printArray(int arr[], int size) { for (int I = 0; I < size; i++) { printf("%d ", arr[i]); } printf("\n"); }`
 
 8. Pointer
@@ -39,7 +39,7 @@ Konsep Pointer:
 10. Enumerasi dan Structure
 Enumerasi:
    - Enumerasi adalah sebuah tipe data baru yang dibuat dari kumpulan konstanta bernama. Enumerasi di C digunakan untuk menyimpan nilai-nilai konstanta dengan nama yang lebih mudah dipahami. Contoh enumerasi: `enum Color {RED, GREEN, BLUE};`
-- Structure (Struct):
+Structure (Struct):
    - Structure adalah sebuah tipe data kompleks yang menggabungkan beberapa variabel dengan tipe data yang berbeda dalam satu variabel. Structure di C digunakan untuk menyimpan beberapa variabel dalam satu entitas. Contoh structure: `struct Student { char name[50]; int roll_number; float gpa; };`
 
 10. File Handling in C
