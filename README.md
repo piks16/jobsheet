@@ -2,6 +2,8 @@
 1. Pengantar Algoritma dan Pemrograman:
    - Algoritma: Algoritma adalah langkah-langkah terurut dan tepat untuk menyelesaikan masalah atau melakukan tugas. Ia tidak menggambarkan cara pemrosesan, melainkan fokus pada logika dan prosedur dari algoritma.
    - Pemrograman: Pemrograman adalah proses mengonversi algoritma menjadi bentuk yang dapat dijalankan oleh komputer. Ia melibatkan menggunakan bahasa pemrograman untuk menulis kode yang dapat dijalankan oleh komputer. Kode ini akan dieksekusi oleh prosesor, yang akan melakukan operasi yang diperlukan.
+   - IDE (Integrated Development Environment): dalam bahasa Indonesia dapat diartikan sebagai Alat Pengembangan Perangkat Lunas Integrasi. IDE adalah aplikasi yang menyediakan fitur-fitur untuk membuat, menyimpan, dan mengcompilasi kode program secara integrasi. IDE menggabungkan editor kode, debugger, compiler, dan lain-lain fitur yang berguna untuk pengembangan program. Dengan IDE, pengembang dapat melakukan semua tahap pengembangan dalam satu aplikasi, mempermudah dan mempercepat proses pengembangan.
+
 
 2. Pemrograman Dasar C:
    - Program C: Program C terdiri dari satu atau lebih fungsi, dimana fungsi `main()` adalah fungsi awal. Fungsi `main()` menentukan aliran eksekusi utama dan merupakan tempat dimana program dimulai. Program C juga menggunakan header file, yang mengandung definisi dan deklarasi untuk fungsi dan tipe data standar seperti `stdio.h`.
