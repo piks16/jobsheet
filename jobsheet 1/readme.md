@@ -1,5 +1,5 @@
 
-<p style="background-image: url('img_girl.jpg');">
+<p style="background-image:(https://github.com/piks16/jobsheet/blob/main/jobsheet%201/images.jpg?raw=true);">
 You can specify background images<br>
 for any visible HTML element.<br>
 In this example, the background image<br>
