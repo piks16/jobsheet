@@ -121,12 +121,12 @@ Poin Penting
 Percabangan memungkinkan penentuan aliran eksekusi program berdasarkan kondisi yang diberikan.
 Masing-masing pernyataan percabangan memiliki kegunaannya sendiri, tergantung pada kompleksitas kondisi dan kebutuhan program.
 Dengan menggunakan percabangan, program dapat mengeksekusi berbagai operasi atau memilih jalur yang berbeda berdasarkan kondisi tertentu.
+
 6. Flow control looping
    1. Konsep Looping:
-
    Looping atau perulangan adalah fitur yang memungkinkan eksekusi ulang sejumlah kode berulang kali sampai kondisi tertentu tercapai. Ini mengurangi redundansi kode dan memungkinkan pemrosesan yang efisien.
+ 
    2. Jenis-jenis Perulangan:
-
    Counted Loop:
    For Loop: Digunakan ketika iterasi yang pasti atau terhitung dibutuhkan. Ini melibatkan inisialisasi, kondisi pengulangan, dan iterasi.
    
