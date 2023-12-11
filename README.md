@@ -9,6 +9,7 @@ Bahasa pemrograman C diperkenalkan sebagai bahasa yang mendukung pemrograman ter
 Pengenalan IDE (Integrated Development Environment) dijelaskan sebagai perangkat lunak yang membantu programmer dalam menulis, menguji, dan menjalankan program dalam satu aplikasi. Ada pula penjelasan tentang persiapan dalam pemrograman C, termasuk instalasi IDE dan compiler.
 
 Kesimpulan dari materi ini adalah pentingnya pemahaman tentang algoritma sebagai dasar dalam pemrograman, perbedaan antara coding dan programming, serta pengenalan bahasa pemrograman C sebagai landasan untuk memahami bahasa pemrograman lainnya. Materi ini memberikan gambaran tentang bagaimana memulai pemrograman dengan bahasa C, serta pentingnya IDE dalam proses pengembangan perangkat lunak.
+
 2. Pemrograman Dasar C:
   Materi ini menguraikan struktur dasar pemrograman dalam bahasa C, fokus pada sintaks dasar, proses input, dan output.
 
