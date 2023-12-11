@@ -152,7 +152,7 @@ Dengan menggunakan percabangan, program dapat mengeksekusi berbagai operasi atau
    Merupakan penggunaan lebih dari satu loop di dalam loop lain.
    Berguna untuk masalah yang memerlukan iterasi dalam iterasi, seperti operasi matriks, pencarian pola, dll.
 7. Array
-Array adalah struktur data penting dalam pemrograman yang memungkinkan penyimpanan dan pengolahan sekumpulan data dalam satu tempat. Beberapa poin kunci yang perlu diperhatikan tentang array:
+  Array adalah struktur data penting dalam pemrograman yang memungkinkan penyimpanan dan pengolahan sekumpulan data dalam satu tempat. Beberapa poin kunci yang perlu diperhatikan tentang array:
 
 Pengertian Array: Array digunakan untuk menyimpan data dalam jumlah besar dengan cara yang efisien. Setiap elemen dalam array memiliki indeks yang dimulai dari 0, memungkinkan akses data dengan mudah.
 
@@ -171,7 +171,7 @@ Array Multidimensi: Array tidak hanya satu dimensi, tetapi juga dapat dua dimens
 Fungsi String: Dalam bahasa C, beberapa fungsi dasar seperti strcpy(), strcat(), strlen(), dan strcmp() membantu dalam manipulasi string.
 
 8. fungsi dan procedure
-Fungsi adalah blok kode yang dapat dipanggil secara berulang untuk menjalankan tugas tertentu. Fungsi main() adalah fungsi yang pertama kali dieksekusi dalam program.
+  Fungsi adalah blok kode yang dapat dipanggil secara berulang untuk menjalankan tugas tertentu. Fungsi main() adalah fungsi yang pertama kali dieksekusi dalam program.
 Contoh:
 
 #include <stdio.h>
@@ -235,7 +235,9 @@ int main() {
     printf("Faktorial dari %d adalah %d\n", num, result);
     return 0;
 }
+
 9. Pointer
+    
  Pengertian Pointer: Pointer adalah variabel yang menyimpan alamat memori dari variabel lain. Alamat memori memungkinkan akses dan manipulasi data secara efisien.
 
 Menggunakan Pointer: Pointer didefinisikan dengan simbol asterik (*) di depan nama variabelnya. Contohnya, int *pointer_umur; adalah pointer yang bisa menyimpan alamat memori variabel bertipe integer.
@@ -245,8 +247,10 @@ Mengakses Alamat Memori: Alamat memori variabel bisa diperoleh dengan menggunaka
 Pass by Reference dengan Pointer: Untuk melakukan pass by reference (pemindahan argumen dengan referensi), pointer digunakan agar perubahan nilai variabel bisa dilakukan secara global, bukan hanya secara lokal di dalam fungsi.
 
 Mengakses Array dengan Pointer: Pointer sering digunakan untuk mengakses dan memanipulasi elemen-elemen dalam array. Dengan pointer, kita bisa menggeser pointer dari elemen satu ke elemen lain dalam array.
+
 10.Enum dan structure   
-Enum (Enumerasi) merupakan tipe data yang memuat kumpulan konstanta yang sudah ditentukan sebelumnya. Ini memungkinkan definisi konstanta semantik yang bermakna dalam program.
+
+  Enum (Enumerasi) merupakan tipe data yang memuat kumpulan konstanta yang sudah ditentukan sebelumnya. Ini memungkinkan definisi konstanta semantik yang bermakna dalam program.
 
 Penggunaan Enum: Enum bisa digunakan untuk membuat kode lebih deskriptif dan mudah dipahami. Contohnya adalah penggunaan enum untuk merepresentasikan hari dalam seminggu.
 
@@ -261,8 +265,10 @@ Struct Bersarang: Struct dapat bersarang di dalam struct lainnya. Ini memungkink
 Passing Struct ke dalam Fungsi: Struct bisa digunakan sebagai parameter fungsi, memungkinkan pengiriman dan penggunaan data yang terstruktur di antara fungsi-fungsi dalam program.
 
 Penggunaan Enum dan Struct membantu dalam pembuatan program yang lebih terstruktur, lebih mudah dimengerti, dan memungkinkan representasi data yang lebih bermakna. Mereka memungkinkan penyusunan data dalam bentuk yang lebih terorganisir, memudahkan pengelolaan data yang kompleks, dan memperkuat kualitas kode secara keseluruhan.
+
 11. File handling
-Fungsi-fungsi Utama:
+    
+  Fungsi-fungsi Utama:
 fopen(): Digunakan untuk membuka file dengan mode tertentu seperti baca, tulis, atau tambahkan data.
 fgets(): Berguna untuk membaca baris dari file teks yang telah dibuka, menyimpannya ke dalam string yang ditentukan.
 fputs(): Mengizinkan penulisan string ke dalam file yang telah dibuka. Menambahkan data pada akhir file atau menimpa isinya tergantung pada mode penggunaan.
