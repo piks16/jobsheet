@@ -1,5 +1,5 @@
 [![Header](https://github.com/piks16/jobsheet/blob/main/github-header-image%20(1).png)
-   <h1 style="color:purple;">1. Pengantar Algoritma dan Pemrograman:</h1>
+   <h1 style="color:blue;">1. Pengantar Algoritma dan Pemrograman:</h1>
   algoritma dijelaskan sebagai serangkaian langkah yang sistematis dan logis untuk menyelesaikan masalah atau mencapai tujuan tertentu. Terdapat penekanan pada ciri-ciri penting algoritma, seperti keterbatasan langkah, definisi yang jelas, masukan, keluaran, efektivitas, dan keterstrukturan.
 
 Pemrograman dijelaskan sebagai proses penulisan, pengujian, perbaikan, dan pemeliharaan kode yang dapat dipahami oleh komputer. Hal ini melibatkan pemahaman tentang algoritma, bahasa pemrograman, dan pembuatan program. Coding dan programming dibedakan dengan coding sebagai bagian dari programming yang juga melibatkan analisis, konseptualisasi, implementasi algoritma, dan pemecahan masalah.
@@ -10,7 +10,7 @@ Pengenalan IDE (Integrated Development Environment) dijelaskan sebagai perangkat
 
 Kesimpulan dari materi ini adalah pentingnya pemahaman tentang algoritma sebagai dasar dalam pemrograman, perbedaan antara coding dan programming, serta pengenalan bahasa pemrograman C sebagai landasan untuk memahami bahasa pemrograman lainnya. Materi ini memberikan gambaran tentang bagaimana memulai pemrograman dengan bahasa C, serta pentingnya IDE dalam proses pengembangan perangkat lunak.
 
-2. Pemrograman Dasar C:
+ <h1 style="color:blue;">2. Pemrograman Dasar C:</h1>
   Materi ini menguraikan struktur dasar pemrograman dalam bahasa C, fokus pada sintaks dasar, proses input, dan output.
 
 Sintaks Dasar C
@@ -33,7 +33,7 @@ scanf(): Mengambil input dari keyboard dengan format tertentu, membutuhkan simbo
 gets(): Mengambil input dalam satu baris, namun tidak disarankan karena dapat menyebabkan masalah buffer overflow.
 fgets(): Lebih aman dari gets(), memungkinkan untuk menentukan ukuran buffer dan sumber inputan.
 
-3. Variabel, Konstanta, dan Tipe Data:
+<h1 style="color:blue;">3. Variabel, Konstanta dan Tipe Data:</h1>
   Materi ini membahas variabel, konstanta, tipe data, type casting, dan keywords dalam pemrograman menggunakan bahasa C.
 
 Variabel & Konstanta
@@ -52,7 +52,7 @@ Aturan Penulisan: Penting untuk memahami aturan penamaan variabel dan konstanta 
 Tipe Data dan Format Specifier: Format specifier sangat penting dalam mencetak output dengan tipe data tertentu.
 Type Casting: Perlu memperhatikan perubahan tipe data agar tidak kehilangan presisi atau mendapatkan hasil yang tidak diinginkan.
 
-4. Operator:
+<h1 style="color:blue;">4. Operator:</h1>
   Jenis Operator
 Unary, Binary, Ternary: Berdasarkan jumlah operand.
 Aritmatika: Operator untuk operasi matematika seperti penjumlahan, pengurangan, perkalian, pembagian, dan sisa bagi.
@@ -69,7 +69,7 @@ Operator Logika: Digunakan untuk membuat operasi logika seperti AND, OR, dan neg
 Operator Bitwise: Beroperasi berdasarkan bit (biner) dari nilai numerik.
 Operator Increment/Decrement: Menambah atau mengurangi nilai variabel dengan 1..
 
-5. Flow Control (Decision Making dan Looping):
+<h1 style="color:blue;">5. Flow Control(Decision making)</h1>
    Pengambilan keputusan dalam pemrograman memungkinkan program untuk melakukan operasi yang berbeda tergantung pada kondisi tertentu. Dalam bahasa pemrograman C, ada beberapa jenis pernyataan percabangan yang memungkinkan untuk mengubah alur eksekusi program. Berikut adalah jenis-jenis pernyataan percabangan yang umum digunakan:
 
    1. If Statement
@@ -122,7 +122,7 @@ Percabangan memungkinkan penentuan aliran eksekusi program berdasarkan kondisi y
 Masing-masing pernyataan percabangan memiliki kegunaannya sendiri, tergantung pada kompleksitas kondisi dan kebutuhan program.
 Dengan menggunakan percabangan, program dapat mengeksekusi berbagai operasi atau memilih jalur yang berbeda berdasarkan kondisi tertentu.
 
-6. Flow control looping
+<h1 style="color:blue;">6. Flow Control (Looping):</h1>
    1. Konsep Looping:
    Looping atau perulangan adalah fitur yang memungkinkan eksekusi ulang sejumlah kode berulang kali sampai kondisi tertentu tercapai. Ini mengurangi redundansi kode dan memungkinkan pemrosesan yang efisien.
  
@@ -151,7 +151,7 @@ Dengan menggunakan percabangan, program dapat mengeksekusi berbagai operasi atau
    4. Nested Loop (Perulangan Bersarang):
    Merupakan penggunaan lebih dari satu loop di dalam loop lain.
    Berguna untuk masalah yang memerlukan iterasi dalam iterasi, seperti operasi matriks, pencarian pola, dll.
-7. Array
+<h1 style="color:blue;">7. Array:</h1>
   Array adalah struktur data penting dalam pemrograman yang memungkinkan penyimpanan dan pengolahan sekumpulan data dalam satu tempat. Beberapa poin kunci yang perlu diperhatikan tentang array:
 
 Pengertian Array: Array digunakan untuk menyimpan data dalam jumlah besar dengan cara yang efisien. Setiap elemen dalam array memiliki indeks yang dimulai dari 0, memungkinkan akses data dengan mudah.
@@ -170,7 +170,7 @@ Array Multidimensi: Array tidak hanya satu dimensi, tetapi juga dapat dua dimens
 
 Fungsi String: Dalam bahasa C, beberapa fungsi dasar seperti strcpy(), strcat(), strlen(), dan strcmp() membantu dalam manipulasi string.
 
-8. fungsi dan procedure
+<h1 style="color:blue;">8. Fungsi dan Prosedur:</h1>
   Fungsi adalah blok kode yang dapat dipanggil secara berulang untuk menjalankan tugas tertentu. Fungsi main() adalah fungsi yang pertama kali dieksekusi dalam program.
 Contoh:
 
@@ -236,7 +236,7 @@ int main() {
     return 0;
 }
 
-9. Pointer
+<h1 style="color:blue;">9.Pointer:</h1>
     
  Pengertian Pointer: Pointer adalah variabel yang menyimpan alamat memori dari variabel lain. Alamat memori memungkinkan akses dan manipulasi data secara efisien.
 
@@ -248,7 +248,7 @@ Pass by Reference dengan Pointer: Untuk melakukan pass by reference (pemindahan 
 
 Mengakses Array dengan Pointer: Pointer sering digunakan untuk mengakses dan memanipulasi elemen-elemen dalam array. Dengan pointer, kita bisa menggeser pointer dari elemen satu ke elemen lain dalam array.
 
-10. Enum dan structure   
+<h1 style="color:blue;">10. Enumerasi dan Structure:</h1>   
 
   Enum (Enumerasi) merupakan tipe data yang memuat kumpulan konstanta yang sudah ditentukan sebelumnya. Ini memungkinkan definisi konstanta semantik yang bermakna dalam program.
 
@@ -266,7 +266,7 @@ Passing Struct ke dalam Fungsi: Struct bisa digunakan sebagai parameter fungsi, 
 
 Penggunaan Enum dan Struct membantu dalam pembuatan program yang lebih terstruktur, lebih mudah dimengerti, dan memungkinkan representasi data yang lebih bermakna. Mereka memungkinkan penyusunan data dalam bentuk yang lebih terorganisir, memudahkan pengelolaan data yang kompleks, dan memperkuat kualitas kode secara keseluruhan.
 
-11. File handling
+<h1 style="color:blue;">11. File Handling:</h1>
     
   Fungsi-fungsi Utama:
 fopen(): Digunakan untuk membuka file dengan mode tertentu seperti baca, tulis, atau tambahkan data.
