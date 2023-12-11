@@ -248,7 +248,7 @@ Pass by Reference dengan Pointer: Untuk melakukan pass by reference (pemindahan 
 
 Mengakses Array dengan Pointer: Pointer sering digunakan untuk mengakses dan memanipulasi elemen-elemen dalam array. Dengan pointer, kita bisa menggeser pointer dari elemen satu ke elemen lain dalam array.
 
-10.Enum dan structure   
+10. Enum dan structure   
 
   Enum (Enumerasi) merupakan tipe data yang memuat kumpulan konstanta yang sudah ditentukan sebelumnya. Ini memungkinkan definisi konstanta semantik yang bermakna dalam program.
 
