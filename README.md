@@ -1,5 +1,5 @@
 [![Header](https://github.com/piks16/jobsheet/blob/main/github-header-image%20(1).png)
-1. Pengantar Algoritma dan Pemrograman:
+   <h1 style="color:purple;">1. Pengantar Algoritma dan Pemrograman:</h1>
   algoritma dijelaskan sebagai serangkaian langkah yang sistematis dan logis untuk menyelesaikan masalah atau mencapai tujuan tertentu. Terdapat penekanan pada ciri-ciri penting algoritma, seperti keterbatasan langkah, definisi yang jelas, masukan, keluaran, efektivitas, dan keterstrukturan.
 
 Pemrograman dijelaskan sebagai proses penulisan, pengujian, perbaikan, dan pemeliharaan kode yang dapat dipahami oleh komputer. Hal ini melibatkan pemahaman tentang algoritma, bahasa pemrograman, dan pembuatan program. Coding dan programming dibedakan dengan coding sebagai bagian dari programming yang juga melibatkan analisis, konseptualisasi, implementasi algoritma, dan pemecahan masalah.
