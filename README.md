@@ -14,59 +14,110 @@ Kesimpulan dari materi ini adalah pentingnya pemahaman tentang algoritma sebagai
   Materi ini menguraikan struktur dasar pemrograman dalam bahasa C, fokus pada sintaks dasar, proses input, dan output.
 
 Sintaks Dasar C
+
 Header Files: #include digunakan untuk mengimpor file header yang berisi definisi fungsi yang diperlukan dalam program.
+
 Main Function: Fungsi utama dalam setiap program C adalah main(). Isi dari fungsi ini diawali dan diakhiri dengan kurung kurawal {}. Fungsi ini dieksekusi pertama kali saat program dijalankan.
+
 Statement: Perintah atau fungsi untuk melakukan sesuatu. Setiap statement diakhiri dengan titik koma (;).
+
 Semicolons: Tanda ini menandakan berakhirnya sebuah perintah atau statement dalam program.
+
 Identifier: Nama yang digunakan untuk mengidentifikasi variabel, fungsi, atau item lain dalam program. Memiliki aturan penulisan yang harus diikuti.
+
 Comments: Komentar dalam kode program, digunakan untuk memberikan deskripsi atau dokumentasi pada bagian program. Ada komentar satu baris (//) dan komentar lebih dari satu baris (/* ... */).
+
 Whitespaces: Spasi, tab, atau karakter kosong lainnya untuk memisahkan elemen dalam sebuah statement.
+
+
 Proses Input & Output
+
 Input: Data yang dimasukkan ke dalam program, bisa berasal dari keyboard, mouse, atau perangkat input lainnya.
+
 Proses: Langkah-langkah yang dilakukan program untuk menghasilkan output.
+
 Output: Informasi yang dihasilkan setelah proses, biasanya ditampilkan ke layar komputer.
+
+
 Fungsi Input & Output dalam C
+
 printf(): Menampilkan output ke layar komputer dengan format tertentu menggunakan format specifier (%s, %d, \n, dll.).
+
 puts(): Menampilkan output tanpa format dan selalu membuat baris baru.
+
 putchar(): Menampilkan satu karakter saja.
+
 scanf(): Mengambil input dari keyboard dengan format tertentu, membutuhkan simbol & sebelum nama variabel.
+
 gets(): Mengambil input dalam satu baris, namun tidak disarankan karena dapat menyebabkan masalah buffer overflow.
+
 fgets(): Lebih aman dari gets(), memungkinkan untuk menentukan ukuran buffer dan sumber inputan.
 
 <h1 style="color:blue;">3. Variabel, Konstanta dan Tipe Data:</h1>
   Materi ini membahas variabel, konstanta, tipe data, type casting, dan keywords dalam pemrograman menggunakan bahasa C.
 
 Variabel & Konstanta
+
 Variabel: Tempat penyimpanan nilai dalam program. Dibutuhkan untuk menyimpan nilai sementara dengan tipe data tertentu.
+
 Aturan Penulisan Variabel: Beberapa aturan seperti tidak diawali dengan simbol/angka, tidak menggunakan kata kunci yang sudah ada di C, serta case sensitive.
+
 Tipe Data Dasar: Char (huruf/karakter), Integer (angka), Float (bilangan pecahan), Double (bilangan pecahan dengan presisi lebih tinggi).
+
 Tipe Data Void: Menyatakan tidak ada data.
+
+
 Tipe Data & Konversi
+
 Tipe Data: Penentu jenis data dalam variabel, misalnya char untuk karakter, int untuk bilangan bulat, float/double untuk bilangan pecahan.
+
 Format Specifier: Digunakan untuk mencetak output dengan format tertentu, seperti %.2f untuk menampilkan angka pecahan dengan dua angka di belakang koma.
+
 Konversi Tipe Data (Type Casting): Proses mengubah tipe data menjadi tipe yang lain, serupa dengan mengubah air menjadi es agar bisa disimpan dalam kardus.
+
+
 Konstanta
 Konstanta: Nilai tetap yang tidak dapat diubah. Dibuat dengan #define atau menggunakan const, disarankan menggunakan huruf kapital untuk penamaan konstanta.
+
+
 Penekanan Penting
+
 Aturan Penulisan: Penting untuk memahami aturan penamaan variabel dan konstanta dalam C.
+
 Tipe Data dan Format Specifier: Format specifier sangat penting dalam mencetak output dengan tipe data tertentu.
+
 Type Casting: Perlu memperhatikan perubahan tipe data agar tidak kehilangan presisi atau mendapatkan hasil yang tidak diinginkan.
 
 <h1 style="color:blue;">4. Operator:</h1>
   Jenis Operator
+  
 Unary, Binary, Ternary: Berdasarkan jumlah operand.
+
 Aritmatika: Operator untuk operasi matematika seperti penjumlahan, pengurangan, perkalian, pembagian, dan sisa bagi.
+
 Penugasan: Operator untuk memberikan nilai kepada variabel.
+
 Pembanding: Operator untuk membandingkan dua nilai.
+
 Logika: Operator untuk operasi logika seperti AND, OR, dan negasi.
+
 Bitwise: Operasi berbasis bit (biner) seperti AND, OR, XOR, dan shift bit.
+
 Lain-lain: Alamat memori, pointer, ternary, increment, decrement.
+
+
 Poin Penting
+
 Operator Aritmatika: Perlu memperhatikan tipe data agar hasil operasi sesuai.
+
 Operator Penugasan: Mengisi nilai variabel dengan operasi tertentu.
+
 Operator Pembanding: Membandingkan dua nilai dan menghasilkan nilai boolean.
+
 Operator Logika: Digunakan untuk membuat operasi logika seperti AND, OR, dan negasi.
+
 Operator Bitwise: Beroperasi berdasarkan bit (biner) dari nilai numerik.
+
 Operator Increment/Decrement: Menambah atau mengurangi nilai variabel dengan 1..
 
 <h1 style="color:blue;">5. Flow Control(Decision making)</h1>
@@ -75,11 +126,12 @@ Operator Increment/Decrement: Menambah atau mengurangi nilai variabel dengan 1..
    1. If Statement
 Percabangan if adalah pernyataan yang digunakan untuk melakukan pengujian kondisi tunggal. Jika kondisi tersebut benar (true), maka blok kode di dalam if akan dieksekusi. Jika tidak, blok kode tersebut akan dilewati.
 
-
 if (kondisi) {
     // Blok kode yang akan dieksekusi jika kondisi benar
 }
+
    2. If Else Statement
+      
 Percabangan if/else memungkinkan untuk mengeksekusi blok kode yang berbeda tergantung pada hasil dari kondisi yang diuji. Jika kondisi benar, blok kode dalam if akan dieksekusi. Jika kondisi salah, blok kode dalam else akan dieksekusi.
 
 
@@ -88,7 +140,9 @@ if (kondisi) {
 } else {
     // Blok kode yang akan dieksekusi jika kondisi salah
 }
+
    3. If Else If Statement
+   
 Percabangan if/else if/else digunakan saat ada beberapa kondisi yang harus diuji secara berturut-turut. Setiap kondisi diuji secara berurutan sampai satu kondisi benar, kemudian blok kode yang sesuai akan dieksekusi.
 
 
@@ -99,7 +153,9 @@ if (kondisi1) {
 } else {
     // Blok kode jika tidak ada kondisi yang memenuhi
 }
+
    4. Switch Case Statement
+      
 Percabangan switch case digunakan saat terdapat banyak kondisi yang mungkin terjadi berdasarkan nilai yang berbeda dari satu variabel atau ekspresi. Program akan mengevaluasi ekspresi dan mengeksekusi blok kode yang sesuai dengan nilai yang cocok dengan kasus tertentu.
 
 switch (nilai) {
@@ -112,14 +168,20 @@ switch (nilai) {
     default:
         // Blok kode jika tidak ada kasus yang cocok
 }
+
    5. Percabangan Operator Ternary
+   
 Operator ternary adalah cara singkat untuk menulis percabangan if/else dalam satu baris. Ini digunakan ketika hanya ada dua kemungkinan hasil dari kondisi.
 
 
 variabel = (kondisi) ? ekspresi_jika_true : ekspresi_jika_false;
+
 Poin Penting
+
 Percabangan memungkinkan penentuan aliran eksekusi program berdasarkan kondisi yang diberikan.
+
 Masing-masing pernyataan percabangan memiliki kegunaannya sendiri, tergantung pada kompleksitas kondisi dan kebutuhan program.
+
 Dengan menggunakan percabangan, program dapat mengeksekusi berbagai operasi atau memilih jalur yang berbeda berdasarkan kondisi tertentu.
 
 <h1 style="color:blue;">6. Flow Control (Looping):</h1>
@@ -133,6 +195,7 @@ Dengan menggunakan percabangan, program dapat mengeksekusi berbagai operasi atau
    Uncounted Loop:
    While Loop: Menjalankan iterasi selama kondisi terpenuhi. Kondisi diperiksa sebelum masuk ke dalam loop.
    Do While Loop: Menjamin setidaknya satu iterasi dilakukan sebelum memeriksa kondisi. Kondisi diperiksa setelah satu iterasi selesai.
+   
    3. Implementasi Masing-masing Perulangan:
 
    For Loop:
