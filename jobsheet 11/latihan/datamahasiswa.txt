@@ -1,0 +1,6 @@
+data mahasiswa 1:nama: fikri
+nim: 34
+program studi: inf
+data mahasiswa 2:nama: siti
+nim: 50
+program studi: inj
