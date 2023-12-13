@@ -3,56 +3,56 @@
    <h1 style="color:blue;">1. Pengantar Algoritma dan Pemrograman:</h1>
   algoritma dijelaskan sebagai serangkaian langkah yang sistematis dan logis untuk menyelesaikan masalah atau mencapai tujuan tertentu. Terdapat penekanan pada ciri-ciri penting algoritma, seperti keterbatasan langkah, definisi yang jelas, masukan, keluaran, efektivitas, dan keterstrukturan.
 
-Pemrograman dijelaskan sebagai proses penulisan, pengujian, perbaikan, dan pemeliharaan kode yang dapat dipahami oleh komputer. Hal ini melibatkan pemahaman tentang algoritma, bahasa pemrograman, dan pembuatan program. Coding dan programming dibedakan dengan coding sebagai bagian dari programming yang juga melibatkan analisis, konseptualisasi, implementasi algoritma, dan pemecahan masalah.
+**Pemrograman** dijelaskan sebagai proses penulisan, pengujian, perbaikan, dan pemeliharaan kode yang dapat dipahami oleh komputer. Hal ini melibatkan pemahaman tentang algoritma, bahasa pemrograman, dan pembuatan program. Coding dan programming dibedakan dengan coding sebagai bagian dari programming yang juga melibatkan analisis, konseptualisasi, implementasi algoritma, dan pemecahan masalah.
 
-Bahasa pemrograman C diperkenalkan sebagai bahasa yang mendukung pemrograman terstruktur dan rekursif. Materi juga membahas sejarah serta versi-versi dari bahasa C, serta manfaat belajar bahasa C seperti kemampuan untuk memahami bahasa pemrograman lainnya, portabilitas, dan fleksibilitas.
+**Bahasa pemrograman C** diperkenalkan sebagai bahasa yang mendukung pemrograman terstruktur dan rekursif. Materi juga membahas sejarah serta versi-versi dari bahasa C, serta manfaat belajar bahasa C seperti kemampuan untuk memahami bahasa pemrograman lainnya, portabilitas, dan fleksibilitas.
 
-Pengenalan IDE (Integrated Development Environment) dijelaskan sebagai perangkat lunak yang membantu programmer dalam menulis, menguji, dan menjalankan program dalam satu aplikasi. Ada pula penjelasan tentang persiapan dalam pemrograman C, termasuk instalasi IDE dan compiler.
+**Pengenalan IDE** (Integrated Development Environment) dijelaskan sebagai perangkat lunak yang membantu programmer dalam menulis, menguji, dan menjalankan program dalam satu aplikasi. Ada pula penjelasan tentang persiapan dalam pemrograman C, termasuk instalasi IDE dan compiler.
 
-Kesimpulan dari materi ini adalah pentingnya pemahaman tentang algoritma sebagai dasar dalam pemrograman, perbedaan antara coding dan programming, serta pengenalan bahasa pemrograman C sebagai landasan untuk memahami bahasa pemrograman lainnya. Materi ini memberikan gambaran tentang bagaimana memulai pemrograman dengan bahasa C, serta pentingnya IDE dalam proses pengembangan perangkat lunak.
+**Kesimpulan** dari materi ini adalah pentingnya pemahaman tentang algoritma sebagai dasar dalam pemrograman, perbedaan antara coding dan programming, serta pengenalan bahasa pemrograman C sebagai landasan untuk memahami bahasa pemrograman lainnya. Materi ini memberikan gambaran tentang bagaimana memulai pemrograman dengan bahasa C, serta pentingnya IDE dalam proses pengembangan perangkat lunak.
 
  <h1 style="color:blue;">2. Pemrograman Dasar C:</h1>
   Materi ini menguraikan struktur dasar pemrograman dalam bahasa C, fokus pada sintaks dasar, proses input, dan output.
 
-Sintaks Dasar C
+**Sintaks Dasar C**
 
-Header Files: #include digunakan untuk mengimpor file header yang berisi definisi fungsi yang diperlukan dalam program.
+**Header Files**: `#include` digunakan untuk mengimpor file header yang berisi definisi fungsi yang diperlukan dalam program.
 
-Main Function: Fungsi utama dalam setiap program C adalah main(). Isi dari fungsi ini diawali dan diakhiri dengan kurung kurawal {}. Fungsi ini dieksekusi pertama kali saat program dijalankan.
+**Main Function**: Fungsi utama dalam setiap program C adalah `main()`. Isi dari fungsi ini diawali dan diakhiri dengan kurung kurawal {}. Fungsi ini dieksekusi pertama kali saat program dijalankan.
 
-Statement: Perintah atau fungsi untuk melakukan sesuatu. Setiap statement diakhiri dengan titik koma (;).
+**Statement**: Perintah atau fungsi untuk melakukan sesuatu. Setiap statement diakhiri dengan titik koma (;).
 
-Semicolons: Tanda ini menandakan berakhirnya sebuah perintah atau statement dalam program.
+**Semicolons**: Tanda ini menandakan berakhirnya sebuah perintah atau statement dalam program.
 
-Identifier: Nama yang digunakan untuk mengidentifikasi variabel, fungsi, atau item lain dalam program. Memiliki aturan penulisan yang harus diikuti.
+**Identifier**: Nama yang digunakan untuk mengidentifikasi variabel, fungsi, atau item lain dalam program. Memiliki aturan penulisan yang harus diikuti.
 
-Comments: Komentar dalam kode program, digunakan untuk memberikan deskripsi atau dokumentasi pada bagian program. Ada komentar satu baris (//) dan komentar lebih dari satu baris (/* ... */).
+**Comments**: Komentar dalam kode program, digunakan untuk memberikan deskripsi atau dokumentasi pada bagian program. Ada komentar satu baris (//) dan komentar lebih dari satu baris (/* ... */).
 
-Whitespaces: Spasi, tab, atau karakter kosong lainnya untuk memisahkan elemen dalam sebuah statement.
-
-
-Proses Input & Output
-
-Input: Data yang dimasukkan ke dalam program, bisa berasal dari keyboard, mouse, atau perangkat input lainnya.
-
-Proses: Langkah-langkah yang dilakukan program untuk menghasilkan output.
-
-Output: Informasi yang dihasilkan setelah proses, biasanya ditampilkan ke layar komputer.
+**Whitespaces**: Spasi, tab, atau karakter kosong lainnya untuk memisahkan elemen dalam sebuah statement.
 
 
-Fungsi Input & Output dalam C
+**Proses Input & Output**
 
-printf(): Menampilkan output ke layar komputer dengan format tertentu menggunakan format specifier (%s, %d, \n, dll.).
+**Input**: Data yang dimasukkan ke dalam program, bisa berasal dari keyboard, mouse, atau perangkat input lainnya.
 
-puts(): Menampilkan output tanpa format dan selalu membuat baris baru.
+**Proses:** Langkah-langkah yang dilakukan program untuk menghasilkan output.
 
-putchar(): Menampilkan satu karakter saja.
+**Output:** Informasi yang dihasilkan setelah proses, biasanya ditampilkan ke layar komputer.
 
-scanf(): Mengambil input dari keyboard dengan format tertentu, membutuhkan simbol & sebelum nama variabel.
 
-gets(): Mengambil input dalam satu baris, namun tidak disarankan karena dapat menyebabkan masalah buffer overflow.
+**Fungsi Input & Output dalam C**
 
-fgets(): Lebih aman dari gets(), memungkinkan untuk menentukan ukuran buffer dan sumber inputan.
+**printf():** Menampilkan output ke layar komputer dengan format tertentu menggunakan format specifier (%s, %d, \n, dll.).
+
+**puts():** Menampilkan output tanpa format dan selalu membuat baris baru.
+
+**putchar():** Menampilkan satu karakter saja.
+
+**scanf():** Mengambil input dari keyboard dengan format tertentu, membutuhkan simbol & sebelum nama variabel.
+
+**gets():** Mengambil input dalam satu baris, namun tidak disarankan karena dapat menyebabkan masalah buffer overflow.
+
+**fgets():** Lebih aman dari gets(), memungkinkan untuk menentukan ukuran buffer dan sumber inputan.
 
 <h1 style="color:blue;">3. Variabel, Konstanta dan Tipe Data:</h1>
   Materi ini membahas variabel, konstanta, tipe data, type casting, dan keywords dalam pemrograman menggunakan bahasa C.
@@ -308,34 +308,34 @@ int main() {
 }
 ```
 <h1 style="color:blue;">9.Pointer:</h1>
-    
- Pengertian Pointer: Pointer adalah variabel yang menyimpan alamat memori dari variabel lain. Alamat memori memungkinkan akses dan manipulasi data secara efisien.
 
-Menggunakan Pointer: Pointer didefinisikan dengan simbol asterik (*) di depan nama variabelnya. Contohnya, int *pointer_umur; adalah pointer yang bisa menyimpan alamat memori variabel bertipe integer.
+**Pengertian Pointer:** Pointer adalah variabel yang menyimpan alamat memori dari variabel lain. Alamat memori memungkinkan akses dan manipulasi data secara efisien.
 
-Mengakses Alamat Memori: Alamat memori variabel bisa diperoleh dengan menggunakan operator &. Contohnya, &nilai akan memberikan alamat memori dari variabel nilai.
+**Menggunakan Pointer:** Pointer didefinisikan dengan simbol asterik (*) di depan nama variabelnya. Contohnya, `int *pointer_umur;` adalah pointer yang bisa menyimpan alamat memori variabel bertipe integer.
 
-Pass by Reference dengan Pointer: Untuk melakukan pass by reference (pemindahan argumen dengan referensi), pointer digunakan agar perubahan nilai variabel bisa dilakukan secara global, bukan hanya secara lokal di dalam fungsi.
+**Mengakses Alamat Memori:** Alamat memori variabel bisa diperoleh dengan menggunakan operator `&`. Contohnya, `&nilai` akan memberikan alamat memori dari variabel nilai.
 
-Mengakses Array dengan Pointer: Pointer sering digunakan untuk mengakses dan memanipulasi elemen-elemen dalam array. Dengan pointer, kita bisa menggeser pointer dari elemen satu ke elemen lain dalam array.
+**Pass by Reference dengan Pointer:** Untuk melakukan pass by reference (pemindahan argumen dengan referensi), pointer digunakan agar perubahan nilai variabel bisa dilakukan secara global, bukan hanya secara lokal di dalam fungsi.
+
+**Mengakses Array dengan Pointer:** Pointer sering digunakan untuk mengakses dan memanipulasi elemen-elemen dalam array. Dengan pointer, kita bisa menggeser pointer dari elemen satu ke elemen lain dalam array.
 
 <h1 style="color:blue;">10. Enumerasi dan Structure:</h1>   
 
-  Enum (Enumerasi) merupakan tipe data yang memuat kumpulan konstanta yang sudah ditentukan sebelumnya. Ini memungkinkan definisi konstanta semantik yang bermakna dalam program.
+**Enum (Enumerasi):** Enum merupakan tipe data yang memuat kumpulan konstanta yang sudah ditentukan sebelumnya. Ini memungkinkan definisi konstanta semantik yang bermakna dalam program.
 
-Penggunaan Enum: Enum bisa digunakan untuk membuat kode lebih deskriptif dan mudah dipahami. Contohnya adalah penggunaan enum untuk merepresentasikan hari dalam seminggu.
+**Penggunaan Enum:** Enum bisa digunakan untuk membuat kode lebih deskriptif dan mudah dipahami. Contohnya adalah penggunaan enum untuk merepresentasikan hari dalam seminggu.
 
-Penggunaan Struct (Struktur): Struct adalah kumpulan variabel dengan tipe data yang berbeda yang digabungkan dalam satu variabel, memungkinkan representasi data yang lebih kompleks dan terstruktur.
+**Penggunaan Struct (Struktur):** Struct adalah kumpulan variabel dengan tipe data yang berbeda yang digabungkan dalam satu variabel, memungkinkan representasi data yang lebih kompleks dan terstruktur.
 
-Kegunaan Struct: Struct membantu mengelola dan merepresentasikan data dengan lebih terstruktur, terutama saat data memiliki banyak elemen yang berbeda. Misalnya, untuk menyimpan data mahasiswa dengan atribut seperti NPM, nama, tanggal lahir, alamat, dan nomor HP.
+**Kegunaan Struct:** Struct membantu mengelola dan merepresentasikan data dengan lebih terstruktur, terutama saat data memiliki banyak elemen yang berbeda. Misalnya, untuk menyimpan data mahasiswa dengan atribut seperti NPM, nama, tanggal lahir, alamat, dan nomor HP.
 
-Penggunaan typedef pada Struct: Typedef memungkinkan pembuatan nama tipe data baru untuk struktur tertentu, membuat kode lebih mudah dipahami dan dikelola.
+**Penggunaan typedef pada Struct:** Typedef memungkinkan pembuatan nama tipe data baru untuk struktur tertentu, membuat kode lebih mudah dipahami dan dikelola.
 
-Struct Bersarang: Struct dapat bersarang di dalam struct lainnya. Ini memungkinkan pembuatan hierarki data yang lebih kompleks, seperti struct yang merepresentasikan informasi terkait dalam struktur yang lebih besar.
+**Struct Bersarang:** Struct dapat bersarang di dalam struct lainnya. Ini memungkinkan pembuatan hierarki data yang lebih kompleks, seperti struct yang merepresentasikan informasi terkait dalam struktur yang lebih besar.
 
-Passing Struct ke dalam Fungsi: Struct bisa digunakan sebagai parameter fungsi, memungkinkan pengiriman dan penggunaan data yang terstruktur di antara fungsi-fungsi dalam program.
+**Passing Struct ke dalam Fungsi:** Struct bisa digunakan sebagai parameter fungsi, memungkinkan pengiriman dan penggunaan data yang terstruktur di antara fungsi-fungsi dalam program.
 
-Penggunaan Enum dan Struct membantu dalam pembuatan program yang lebih terstruktur, lebih mudah dimengerti, dan memungkinkan representasi data yang lebih bermakna. Mereka memungkinkan penyusunan data dalam bentuk yang lebih terorganisir, memudahkan pengelolaan data yang kompleks, dan memperkuat kualitas kode secara keseluruhan.
+Penggunaan **Enum** dan **Struct** membantu dalam pembuatan program yang lebih terstruktur, lebih mudah dimengerti, dan memungkinkan representasi data yang lebih bermakna. Mereka memungkinkan penyusunan data dalam bentuk yang lebih terorganisir, memudahkan pengelolaan data yang kompleks, dan memperkuat kualitas kode secara keseluruhan.
 
 <h1 style="color:blue;">11. File Handling:</h1>
     
