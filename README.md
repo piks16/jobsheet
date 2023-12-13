@@ -137,18 +137,19 @@ if (kondisi) {
       
 Percabangan if/else memungkinkan untuk mengeksekusi blok kode yang berbeda tergantung pada hasil dari kondisi yang diuji. Jika kondisi benar, blok kode dalam if akan dieksekusi. Jika kondisi salah, blok kode dalam else akan dieksekusi.
 
+```c
 
 if (kondisi) {
     // Blok kode yang akan dieksekusi jika kondisi benar
 } else {
     // Blok kode yang akan dieksekusi jika kondisi salah
 }
-
+```
    3. If Else If Statement
    
 Percabangan if/else if/else digunakan saat ada beberapa kondisi yang harus diuji secara berturut-turut. Setiap kondisi diuji secara berurutan sampai satu kondisi benar, kemudian blok kode yang sesuai akan dieksekusi.
 
-
+```c
 if (kondisi1) {
     // Blok kode jika kondisi1 benar
 } else if (kondisi2) {
@@ -156,11 +157,11 @@ if (kondisi1) {
 } else {
     // Blok kode jika tidak ada kondisi yang memenuhi
 }
-
+```
    4. Switch Case Statement
-      
+    
 Percabangan switch case digunakan saat terdapat banyak kondisi yang mungkin terjadi berdasarkan nilai yang berbeda dari satu variabel atau ekspresi. Program akan mengevaluasi ekspresi dan mengeksekusi blok kode yang sesuai dengan nilai yang cocok dengan kasus tertentu.
-
+```c
 switch (nilai) {
     case nilai1:
         // Blok kode jika nilai sama dengan nilai1
@@ -171,14 +172,14 @@ switch (nilai) {
     default:
         // Blok kode jika tidak ada kasus yang cocok
 }
-
+```
    5. Percabangan Operator Ternary
    
 Operator ternary adalah cara singkat untuk menulis percabangan if/else dalam satu baris. Ini digunakan ketika hanya ada dua kemungkinan hasil dari kondisi.
 
-
+```c
 variabel = (kondisi) ? ekspresi_jika_true : ekspresi_jika_false;
-
+```
 Poin Penting
 
 Percabangan memungkinkan penentuan aliran eksekusi program berdasarkan kondisi yang diberikan.
@@ -234,12 +235,13 @@ Mengambil Panjang Array: Fungsi sizeof() digunakan untuk mengambil panjang atau 
 
 Array Multidimensi: Array tidak hanya satu dimensi, tetapi juga dapat dua dimensi atau lebih. Array dua dimensi sering digunakan untuk representasi matriks.
 
-Fungsi String: Dalam bahasa C, beberapa fungsi dasar seperti strcpy(), strcat(), strlen(), dan strcmp() membantu dalam manipulasi string.
+Fungsi String: Dalam bahasa C, beberapa fungsi dasar seperti `strcpy()`, `strcat()`, `strlen()`, dan `strcmp()` membantu dalam manipulasi string.
 
 <h1 style="color:blue;">8. Fungsi dan Prosedur:</h1>
   Fungsi adalah blok kode yang dapat dipanggil secara berulang untuk menjalankan tugas tertentu. Fungsi main() adalah fungsi yang pertama kali dieksekusi dalam program.
 Contoh:
 
+```c
 #include <stdio.h>
 
 // Fungsi sederhana
@@ -251,9 +253,10 @@ int main() {
     sayHello(); // Memanggil fungsi sayHello
     return 0;
 }
+```
 Parameter dalam Fungsi memungkinkan kita mengirim nilai ke dalam fungsi. Parameter digunakan untuk menerima nilai yang akan diolah di dalam fungsi.
 Contoh:
-
+```c
 #include <stdio.h>
 
 // Fungsi dengan parameter
@@ -266,9 +269,10 @@ int main() {
     greetUser(userName); // Memanggil fungsi greetUser dengan parameter
     return 0;
 }
+```
 Fungsi yang Mengembalikan Nilai menggunakan return untuk mengembalikan nilai hasil dari operasi dalam fungsi.
 Contoh:
-
+```c
 #include <stdio.h>
 
 // Fungsi yang mengembalikan nilai
@@ -281,9 +285,10 @@ int main() {
     printf("Hasil penjumlahan: %d\n", result);
     return 0;
 }
+```
 Fungsi Rekursif adalah fungsi yang memanggil dirinya sendiri untuk menyelesaikan masalah secara iteratif.
 Contoh:
-
+```c
 #include <stdio.h>
 
 // Fungsi rekursif untuk menghitung faktorial
@@ -301,7 +306,7 @@ int main() {
     printf("Faktorial dari %d adalah %d\n", num, result);
     return 0;
 }
-
+```
 <h1 style="color:blue;">9.Pointer:</h1>
     
  Pengertian Pointer: Pointer adalah variabel yang menyimpan alamat memori dari variabel lain. Alamat memori memungkinkan akses dan manipulasi data secara efisien.
@@ -335,9 +340,12 @@ Penggunaan Enum dan Struct membantu dalam pembuatan program yang lebih terstrukt
 <h1 style="color:blue;">11. File Handling:</h1>
     
   Fungsi-fungsi Utama:
-fopen(): Digunakan untuk membuka file dengan mode tertentu seperti baca, tulis, atau tambahkan data.
-fgets(): Berguna untuk membaca baris dari file teks yang telah dibuka, menyimpannya ke dalam string yang ditentukan.
-fputs(): Mengizinkan penulisan string ke dalam file yang telah dibuka. Menambahkan data pada akhir file atau menimpa isinya tergantung pada mode penggunaan.
+  
+`fopen()`: Digunakan untuk membuka file dengan mode tertentu seperti baca, tulis, atau tambahkan data.
+
+`fgets()`: Berguna untuk membaca baris dari file teks yang telah dibuka, menyimpannya ke dalam string yang ditentukan.
+
+`fputs()`: Mengizinkan penulisan string ke dalam file yang telah dibuka. Menambahkan data pada akhir file atau menimpa isinya tergantung pada mode penggunaan.
 Mode Penggunaan:
 
 Mode membuka file (r, w, a) menentukan cara file tersebut dibuka. Penggunaan mode yang tepat sangat penting untuk operasi file yang benar.
