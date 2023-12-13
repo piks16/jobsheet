@@ -353,6 +353,7 @@ Mode Penggunaan:
 
 **Mode membuka file (r, w, a) menentukan cara file tersebut dibuka**. Penggunaan mode yang tepat sangat penting untuk operasi file yang benar.
 File teks dan file biner memiliki mode pembukaan yang berbeda, seperti rb, wb, ab.
+
 **Looping dan Pengelolaan Isi File:**
 
 **Penggunaan loop (seperti while atau for)** penting saat membaca atau menulis file dengan banyak baris. Ini memungkinkan pembacaan atau penulisan baris demi baris secara efisien.
