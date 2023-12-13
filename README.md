@@ -127,9 +127,11 @@ Operator Increment/Decrement: Menambah atau mengurangi nilai variabel dengan 1..
    1. If Statement
 Percabangan if adalah pernyataan yang digunakan untuk melakukan pengujian kondisi tunggal. Jika kondisi tersebut benar (true), maka blok kode di dalam if akan dieksekusi. Jika tidak, blok kode tersebut akan dilewati.
 
+```c
 if (kondisi) {
     // Blok kode yang akan dieksekusi jika kondisi benar
 }
+```
 
    2. If Else Statement
       
