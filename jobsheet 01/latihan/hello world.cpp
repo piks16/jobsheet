@@ -1,3 +1,4 @@
+//by fikri
 //dibawah ini adalah bagian header yang berfungsi mengimpor fungsi pada header
 #include<stdio.h>
 
