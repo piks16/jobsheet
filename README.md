@@ -55,76 +55,76 @@
 **fgets():** Lebih aman dari gets(), memungkinkan untuk menentukan ukuran buffer dan sumber inputan.
 
 <h1 style="color:blue;">3. Variabel, Konstanta dan Tipe Data:</h1>
-  Materi ini membahas variabel, konstanta, tipe data, type casting, dan keywords dalam pemrograman menggunakan bahasa C.
+ 
+**Variabel & Konstanta**
 
-Variabel & Konstanta
+**Variabel:** Tempat penyimpanan nilai dalam program. Dibutuhkan untuk menyimpan nilai sementara dengan tipe data tertentu.
 
-Variabel: Tempat penyimpanan nilai dalam program. Dibutuhkan untuk menyimpan nilai sementara dengan tipe data tertentu.
+**Aturan Penulisan Variabel:** Beberapa aturan seperti tidak diawali dengan simbol/angka, tidak menggunakan kata kunci yang sudah ada di C, serta case sensitive.
 
-Aturan Penulisan Variabel: Beberapa aturan seperti tidak diawali dengan simbol/angka, tidak menggunakan kata kunci yang sudah ada di C, serta case sensitive.
+**Tipe Data Dasar:** Char (huruf/karakter), Integer (angka), Float (bilangan pecahan), Double (bilangan pecahan dengan presisi lebih tinggi).
 
-Tipe Data Dasar: Char (huruf/karakter), Integer (angka), Float (bilangan pecahan), Double (bilangan pecahan dengan presisi lebih tinggi).
-
-Tipe Data Void: Menyatakan tidak ada data.
-
-
-Tipe Data & Konversi
-
-Tipe Data: Penentu jenis data dalam variabel, misalnya char untuk karakter, int untuk bilangan bulat, float/double untuk bilangan pecahan.
-
-Format Specifier: Digunakan untuk mencetak output dengan format tertentu, seperti %.2f untuk menampilkan angka pecahan dengan dua angka di belakang koma.
-
-Konversi Tipe Data (Type Casting): Proses mengubah tipe data menjadi tipe yang lain, serupa dengan mengubah air menjadi es agar bisa disimpan dalam kardus.
+**Tipe Data Void:** Menyatakan tidak ada data.
 
 
-Konstanta
-Konstanta: Nilai tetap yang tidak dapat diubah. Dibuat dengan #define atau menggunakan const, disarankan menggunakan huruf kapital untuk penamaan konstanta.
+**Tipe Data & Konversi**
+
+**Tipe Data:** Penentu jenis data dalam variabel, misalnya char untuk karakter, int untuk bilangan bulat, float/double untuk bilangan pecahan.
+
+**Format Specifier:** Digunakan untuk mencetak output dengan format tertentu, seperti %.2f untuk menampilkan angka pecahan dengan dua angka di belakang koma.
+
+**Konversi Tipe Data (Type Casting):** Proses mengubah tipe data menjadi tipe yang lain, serupa dengan mengubah air menjadi es agar bisa disimpan dalam kardus.
 
 
-Penekanan Penting
+**Konstanta**
+**Konstanta:** Nilai tetap yang tidak dapat diubah. Dibuat dengan #define atau menggunakan const, disarankan menggunakan huruf kapital untuk penamaan konstanta.
 
-Aturan Penulisan: Penting untuk memahami aturan penamaan variabel dan konstanta dalam C.
 
-Tipe Data dan Format Specifier: Format specifier sangat penting dalam mencetak output dengan tipe data tertentu.
+**Penekanan Penting**
 
-Type Casting: Perlu memperhatikan perubahan tipe data agar tidak kehilangan presisi atau mendapatkan hasil yang tidak diinginkan.
+**Aturan Penulisan:** Penting untuk memahami aturan penamaan variabel dan konstanta dalam C.
+
+**Tipe Data dan Format Specifier:** Format specifier sangat penting dalam mencetak output dengan tipe data tertentu.
+
+**Type Casting:** Perlu memperhatikan perubahan tipe data agar tidak kehilangan presisi atau mendapatkan hasil yang tidak diinginkan.
 
 <h1 style="color:blue;">4. Operator:</h1>
-  Jenis Operator
+
+**Jenis Operator:**
   
-Unary, Binary, Ternary: Berdasarkan jumlah operand.
+**Unary, Binary, Ternary:** Berdasarkan jumlah operand.
 
-Aritmatika: Operator untuk operasi matematika seperti penjumlahan, pengurangan, perkalian, pembagian, dan sisa bagi.
+**Aritmatika:** Operator untuk operasi matematika seperti penjumlahan, pengurangan, perkalian, pembagian, dan sisa bagi.
 
-Penugasan: Operator untuk memberikan nilai kepada variabel.
+**Penugasan:** Operator untuk memberikan nilai kepada variabel.
 
-Pembanding: Operator untuk membandingkan dua nilai.
+**Pembanding:** Operator untuk membandingkan dua nilai.
 
-Logika: Operator untuk operasi logika seperti AND, OR, dan negasi.
+**Logika:** Operator untuk operasi logika seperti AND, OR, dan negasi.
 
-Bitwise: Operasi berbasis bit (biner) seperti AND, OR, XOR, dan shift bit.
+**Bitwise:** Operasi berbasis bit (biner) seperti AND, OR, XOR, dan shift bit.
 
-Lain-lain: Alamat memori, pointer, ternary, increment, decrement.
+**Lain-lain:** Alamat memori, pointer, ternary, increment, decrement.
 
 
-Poin Penting
+**Poin Penting**
 
-Operator Aritmatika: Perlu memperhatikan tipe data agar hasil operasi sesuai.
+**Operator Aritmatika:** Perlu memperhatikan tipe data agar hasil operasi sesuai.
 
-Operator Penugasan: Mengisi nilai variabel dengan operasi tertentu.
+**Operator Penugasan:** Mengisi nilai variabel dengan operasi tertentu.
 
-Operator Pembanding: Membandingkan dua nilai dan menghasilkan nilai boolean.
+**Operator Pembanding:** Membandingkan dua nilai dan menghasilkan nilai boolean.
 
-Operator Logika: Digunakan untuk membuat operasi logika seperti AND, OR, dan negasi.
+**Operator Logika:** Digunakan untuk membuat operasi logika seperti AND, OR, dan negasi.
 
-Operator Bitwise: Beroperasi berdasarkan bit (biner) dari nilai numerik.
+**Operator Bitwise:** Beroperasi berdasarkan bit (biner) dari nilai numerik.
 
-Operator Increment/Decrement: Menambah atau mengurangi nilai variabel dengan 1..
+**Operator Increment/Decrement:** Menambah atau mengurangi nilai variabel dengan 1..
 
 <h1 style="color:blue;">5. Flow Control(Decision making)</h1>
    Pengambilan keputusan dalam pemrograman memungkinkan program untuk melakukan operasi yang berbeda tergantung pada kondisi tertentu. Dalam bahasa pemrograman C, ada beberapa jenis pernyataan percabangan yang memungkinkan untuk mengubah alur eksekusi program. Berikut adalah jenis-jenis pernyataan percabangan yang umum digunakan:
 
-   1. If Statement
+   **1. If Statement**
 Percabangan if adalah pernyataan yang digunakan untuk melakukan pengujian kondisi tunggal. Jika kondisi tersebut benar (true), maka blok kode di dalam if akan dieksekusi. Jika tidak, blok kode tersebut akan dilewati.
 
 ```c
@@ -133,7 +133,7 @@ if (kondisi) {
 }
 ```
 
-   2. If Else Statement
+   **2. If Else Statement**
       
 Percabangan if/else memungkinkan untuk mengeksekusi blok kode yang berbeda tergantung pada hasil dari kondisi yang diuji. Jika kondisi benar, blok kode dalam if akan dieksekusi. Jika kondisi salah, blok kode dalam else akan dieksekusi.
 
@@ -145,7 +145,7 @@ if (kondisi) {
     // Blok kode yang akan dieksekusi jika kondisi salah
 }
 ```
-   3. If Else If Statement
+   **3. If Else If Statement**
    
 Percabangan if/else if/else digunakan saat ada beberapa kondisi yang harus diuji secara berturut-turut. Setiap kondisi diuji secara berurutan sampai satu kondisi benar, kemudian blok kode yang sesuai akan dieksekusi.
 
@@ -158,7 +158,7 @@ if (kondisi1) {
     // Blok kode jika tidak ada kondisi yang memenuhi
 }
 ```
-   4. Switch Case Statement
+  **4. Switch Case Statement**
     
 Percabangan switch case digunakan saat terdapat banyak kondisi yang mungkin terjadi berdasarkan nilai yang berbeda dari satu variabel atau ekspresi. Program akan mengevaluasi ekspresi dan mengeksekusi blok kode yang sesuai dengan nilai yang cocok dengan kasus tertentu.
 ```c
@@ -173,14 +173,14 @@ switch (nilai) {
         // Blok kode jika tidak ada kasus yang cocok
 }
 ```
-   5. Percabangan Operator Ternary
+   **5. Percabangan Operator Ternary**
    
 Operator ternary adalah cara singkat untuk menulis percabangan if/else dalam satu baris. Ini digunakan ketika hanya ada dua kemungkinan hasil dari kondisi.
 
 ```c
 variabel = (kondisi) ? ekspresi_jika_true : ekspresi_jika_false;
 ```
-Poin Penting
+**Poin Penting**
 
 Percabangan memungkinkan penentuan aliran eksekusi program berdasarkan kondisi yang diberikan.
 
@@ -189,56 +189,59 @@ Masing-masing pernyataan percabangan memiliki kegunaannya sendiri, tergantung pa
 Dengan menggunakan percabangan, program dapat mengeksekusi berbagai operasi atau memilih jalur yang berbeda berdasarkan kondisi tertentu.
 
 <h1 style="color:blue;">6. Flow Control (Looping):</h1>
-   1. Konsep Looping:
+
+   **1. Konsep Looping:**
    Looping atau perulangan adalah fitur yang memungkinkan eksekusi ulang sejumlah kode berulang kali sampai kondisi tertentu tercapai. Ini mengurangi redundansi kode dan memungkinkan pemrosesan yang efisien.
  
-   2. Jenis-jenis Perulangan:
-   Counted Loop:
+   **2. Jenis-jenis Perulangan:**
+   **Counted Loop:**
    For Loop: Digunakan ketika iterasi yang pasti atau terhitung dibutuhkan. Ini melibatkan inisialisasi, kondisi pengulangan, dan iterasi.
    
-   Uncounted Loop:
+   **Uncounted Loop:**
    While Loop: Menjalankan iterasi selama kondisi terpenuhi. Kondisi diperiksa sebelum masuk ke dalam loop.
    Do While Loop: Menjamin setidaknya satu iterasi dilakukan sebelum memeriksa kondisi. Kondisi diperiksa setelah satu iterasi selesai.
    
-   3. Implementasi Masing-masing Perulangan:
+   **3. Implementasi Masing-masing Perulangan:**
 
-   For Loop:
+   **For Loop:**
    Memulai dengan inisialisasi variabel.
    Melakukan iterasi selama kondisi terpenuhi.
    Memperbarui nilai variabel dalam setiap iterasi.
    
-   While Loop:
+   **While Loop:**
    Memeriksa kondisi sebelum setiap iterasi.
    Jika kondisi terpenuhi, loop akan dijalankan.
    
-   Do While Loop:
+   **Do While Loop:**
    Menjamin setidaknya satu iterasi dilakukan.
    Setelah iterasi, kondisi dicek untuk iterasi berikutnya.
    
-   4. Nested Loop (Perulangan Bersarang):
+   **4. Nested Loop (Perulangan Bersarang):**
    Merupakan penggunaan lebih dari satu loop di dalam loop lain.
    Berguna untuk masalah yang memerlukan iterasi dalam iterasi, seperti operasi matriks, pencarian pola, dll.
 <h1 style="color:blue;">7. Array:</h1>
-  Array adalah struktur data penting dalam pemrograman yang memungkinkan penyimpanan dan pengolahan sekumpulan data dalam satu tempat. Beberapa poin kunci yang perlu diperhatikan tentang array:
 
-Pengertian Array: Array digunakan untuk menyimpan data dalam jumlah besar dengan cara yang efisien. Setiap elemen dalam array memiliki indeks yang dimulai dari 0, memungkinkan akses data dengan mudah.
+  **Array** adalah struktur data penting dalam pemrograman yang memungkinkan penyimpanan dan pengolahan sekumpulan data dalam satu tempat. Beberapa poin kunci yang perlu diperhatikan tentang array:
 
-Membuat Array: Array dibuat dengan menentukan panjangnya menggunakan kurung siku []. Penggunaan array mirip dengan variabel biasa dalam hal deklarasi.
+**Pengertian Array:** Array digunakan untuk menyimpan data dalam jumlah besar dengan cara yang efisien. Setiap elemen dalam array memiliki indeks yang dimulai dari 0, memungkinkan akses data dengan mudah.
 
-Mengakses Data Array: Akses data dalam array dilakukan dengan menggunakan indeks. Indeks dimulai dari 0. Misalnya, array[2] merujuk pada elemen ketiga dalam array.
+**Membuat Array:** Array dibuat dengan menentukan panjangnya menggunakan kurung siku []. Penggunaan array mirip dengan variabel biasa dalam hal deklarasi.
 
-Manipulasi Data pada Array: Data dalam array dapat diubah dengan mengganti nilai pada indeks tertentu, misalnya array[2] = 'z'.
+**Mengakses Data Array:** Akses data dalam array dilakukan dengan menggunakan indeks. Indeks dimulai dari 0. Misalnya, `array[2]` merujuk pada elemen ketiga dalam array.
 
-Penggunaan Perulangan dengan Array: Perulangan sangat berguna saat bekerja dengan array yang memiliki banyak elemen. Contoh penggunaan perulangan for untuk mengakses dan memproses data dalam array.
+**Manipulasi Data pada Array:** Data dalam array dapat diubah dengan mengganti nilai pada indeks tertentu, misalnya `array[2] = 'z'.`
 
-Mengambil Panjang Array: Fungsi sizeof() digunakan untuk mengambil panjang atau ukuran array. Ini memungkinkan penggunaan array yang lebih dinamis.
+**Penggunaan Perulangan dengan Array:** Perulangan sangat berguna saat bekerja dengan array yang memiliki banyak elemen. Contoh penggunaan perulangan for untuk mengakses dan memproses data dalam array.
 
-Array Multidimensi: Array tidak hanya satu dimensi, tetapi juga dapat dua dimensi atau lebih. Array dua dimensi sering digunakan untuk representasi matriks.
+**Mengambil Panjang Array:** Fungsi `sizeof()` digunakan untuk mengambil panjang atau ukuran array. Ini memungkinkan penggunaan array yang lebih dinamis.
 
-Fungsi String: Dalam bahasa C, beberapa fungsi dasar seperti `strcpy()`, `strcat()`, `strlen()`, dan `strcmp()` membantu dalam manipulasi string.
+**Array Multidimensi:** Array tidak hanya satu dimensi, tetapi juga dapat dua dimensi atau lebih. Array dua dimensi sering digunakan untuk representasi matriks.
+
+**Fungsi String:** Dalam bahasa C, beberapa fungsi dasar seperti `strcpy()`, `strcat()`, `strlen()`, dan `strcmp()` membantu dalam manipulasi string.
 
 <h1 style="color:blue;">8. Fungsi dan Prosedur:</h1>
-  Fungsi adalah blok kode yang dapat dipanggil secara berulang untuk menjalankan tugas tertentu. Fungsi main() adalah fungsi yang pertama kali dieksekusi dalam program.
+
+  **Fungsi** adalah blok kode yang dapat dipanggil secara berulang untuk menjalankan tugas tertentu. Fungsi main() adalah fungsi yang pertama kali dieksekusi dalam program.
 Contoh:
 
 ```c
@@ -254,7 +257,7 @@ int main() {
     return 0;
 }
 ```
-Parameter dalam Fungsi memungkinkan kita mengirim nilai ke dalam fungsi. Parameter digunakan untuk menerima nilai yang akan diolah di dalam fungsi.
+**Parameter** dalam Fungsi memungkinkan kita mengirim nilai ke dalam fungsi. Parameter digunakan untuk menerima nilai yang akan diolah di dalam fungsi.
 Contoh:
 ```c
 #include <stdio.h>
@@ -270,7 +273,7 @@ int main() {
     return 0;
 }
 ```
-Fungsi yang Mengembalikan Nilai menggunakan return untuk mengembalikan nilai hasil dari operasi dalam fungsi.
+**Fungsi yang Mengembalikan Nilai menggunakan `return` untuk mengembalikan nilai hasil dari operasi dalam fungsi.**
 Contoh:
 ```c
 #include <stdio.h>
@@ -286,7 +289,7 @@ int main() {
     return 0;
 }
 ```
-Fungsi Rekursif adalah fungsi yang memanggil dirinya sendiri untuk menyelesaikan masalah secara iteratif.
+**Fungsi Rekursif** adalah fungsi yang memanggil dirinya sendiri untuk menyelesaikan masalah secara iteratif.
 Contoh:
 ```c
 #include <stdio.h>
@@ -339,7 +342,7 @@ Penggunaan **Enum** dan **Struct** membantu dalam pembuatan program yang lebih t
 
 <h1 style="color:blue;">11. File Handling:</h1>
     
-  Fungsi-fungsi Utama:
+  **Fungsi-fungsi Utama:**
   
 `fopen()`: Digunakan untuk membuka file dengan mode tertentu seperti baca, tulis, atau tambahkan data.
 
@@ -348,11 +351,11 @@ Penggunaan **Enum** dan **Struct** membantu dalam pembuatan program yang lebih t
 `fputs()`: Mengizinkan penulisan string ke dalam file yang telah dibuka. Menambahkan data pada akhir file atau menimpa isinya tergantung pada mode penggunaan.
 Mode Penggunaan:
 
-Mode membuka file (r, w, a) menentukan cara file tersebut dibuka. Penggunaan mode yang tepat sangat penting untuk operasi file yang benar.
+**Mode membuka file (r, w, a) menentukan cara file tersebut dibuka**. Penggunaan mode yang tepat sangat penting untuk operasi file yang benar.
 File teks dan file biner memiliki mode pembukaan yang berbeda, seperti rb, wb, ab.
-Looping dan Pengelolaan Isi File:
+**Looping dan Pengelolaan Isi File:**
 
-Penggunaan loop (seperti while atau for) penting saat membaca atau menulis file dengan banyak baris. Ini memungkinkan pembacaan atau penulisan baris demi baris secara efisien.
-Penanganan Kesalahan:
+**Penggunaan loop (seperti while atau for)** penting saat membaca atau menulis file dengan banyak baris. Ini memungkinkan pembacaan atau penulisan baris demi baris secara efisien.
 
+**Penanganan Kesalahan:**
 Penggunaan mode yang salah saat membuka file atau menulis ke dalamnya dapat menghasilkan kesalahan atau bahkan kehilangan data.
