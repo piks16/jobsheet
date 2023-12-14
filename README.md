@@ -1,6 +1,6 @@
 
 [![Header](https://github.com/piks16/jobsheet/blob/main/github-header-image%20(1).png)
-   <h1 style="color:blue;">1. Pengantar Algoritma dan Pemrograman:</h1>
+   <h1 style="color:blue;">1. Pengantar Algoritma dan Pemrograman</h1>
   algoritma dijelaskan sebagai serangkaian langkah yang sistematis dan logis untuk menyelesaikan masalah atau mencapai tujuan tertentu. Terdapat penekanan pada ciri-ciri penting algoritma, seperti keterbatasan langkah, definisi yang jelas, masukan, keluaran, efektivitas, dan keterstrukturan.
 
 **Pemrograman** dijelaskan sebagai proses penulisan, pengujian, perbaikan, dan pemeliharaan kode yang dapat dipahami oleh komputer. Hal ini melibatkan pemahaman tentang algoritma, bahasa pemrograman, dan pembuatan program. Coding dan programming dibedakan dengan coding sebagai bagian dari programming yang juga melibatkan analisis, konseptualisasi, implementasi algoritma, dan pemecahan masalah.
@@ -11,7 +11,7 @@
 
 **Kesimpulan** dari materi ini adalah pentingnya pemahaman tentang algoritma sebagai dasar dalam pemrograman, perbedaan antara coding dan programming, serta pengenalan bahasa pemrograman C sebagai landasan untuk memahami bahasa pemrograman lainnya. Materi ini memberikan gambaran tentang bagaimana memulai pemrograman dengan bahasa C, serta pentingnya IDE dalam proses pengembangan perangkat lunak.
 
- <h1 style="color:blue;">2. Pemrograman Dasar C:</h1>
+ <h1 style="color:blue;">2. Pemrograman Dasar C</h1>
   Materi ini menguraikan struktur dasar pemrograman dalam bahasa C, fokus pada sintaks dasar, proses input, dan output.
 
 **Sintaks Dasar C**
@@ -54,7 +54,7 @@
 
 **fgets():** Lebih aman dari gets(), memungkinkan untuk menentukan ukuran buffer dan sumber inputan.
 
-<h1 style="color:blue;">3. Variabel, Konstanta dan Tipe Data:</h1>
+<h1 style="color:blue;">3. Variabel, Konstanta dan Tipe Data</h1>
  
 **Variabel & Konstanta**
 
@@ -88,7 +88,7 @@
 
 **Type Casting:** Perlu memperhatikan perubahan tipe data agar tidak kehilangan presisi atau mendapatkan hasil yang tidak diinginkan.
 
-<h1 style="color:blue;">4. Operator:</h1>
+<h1 style="color:blue;">4. Operator</h1>
 
 **Jenis Operator:**
   
@@ -188,7 +188,7 @@ Masing-masing pernyataan percabangan memiliki kegunaannya sendiri, tergantung pa
 
 Dengan menggunakan percabangan, program dapat mengeksekusi berbagai operasi atau memilih jalur yang berbeda berdasarkan kondisi tertentu.
 
-<h1 style="color:blue;">6. Flow Control (Looping):</h1>
+<h1 style="color:blue;">6. Flow Control (Looping)</h1>
 
    **1. Konsep Looping:**
    Looping atau perulangan adalah fitur yang memungkinkan eksekusi ulang sejumlah kode berulang kali sampai kondisi tertentu tercapai. Ini mengurangi redundansi kode dan memungkinkan pemrosesan yang efisien.
@@ -219,7 +219,7 @@ Dengan menggunakan percabangan, program dapat mengeksekusi berbagai operasi atau
    **4. Nested Loop (Perulangan Bersarang):**
    Merupakan penggunaan lebih dari satu loop di dalam loop lain.
    Berguna untuk masalah yang memerlukan iterasi dalam iterasi, seperti operasi matriks, pencarian pola, dll.
-<h1 style="color:blue;">7. Array:</h1>
+<h1 style="color:blue;">7. Array</h1>
 
   **Array** adalah struktur data penting dalam pemrograman yang memungkinkan penyimpanan dan pengolahan sekumpulan data dalam satu tempat. Beberapa poin kunci yang perlu diperhatikan tentang array:
 
@@ -239,7 +239,7 @@ Dengan menggunakan percabangan, program dapat mengeksekusi berbagai operasi atau
 
 **Fungsi String:** Dalam bahasa C, beberapa fungsi dasar seperti `strcpy()`, `strcat()`, `strlen()`, dan `strcmp()` membantu dalam manipulasi string.
 
-<h1 style="color:blue;">8. Fungsi dan Prosedur:</h1>
+<h1 style="color:blue;">8. Fungsi dan Prosedur</h1>
 
   **Fungsi** adalah blok kode yang dapat dipanggil secara berulang untuk menjalankan tugas tertentu. Fungsi main() adalah fungsi yang pertama kali dieksekusi dalam program.
 Contoh:
@@ -310,7 +310,7 @@ int main() {
     return 0;
 }
 ```
-<h1 style="color:blue;">9.Pointer:</h1>
+<h1 style="color:blue;">9.Pointer</h1>
 
 **Pengertian Pointer:** Pointer adalah variabel yang menyimpan alamat memori dari variabel lain. Alamat memori memungkinkan akses dan manipulasi data secara efisien.
 
@@ -322,7 +322,7 @@ int main() {
 
 **Mengakses Array dengan Pointer:** Pointer sering digunakan untuk mengakses dan memanipulasi elemen-elemen dalam array. Dengan pointer, kita bisa menggeser pointer dari elemen satu ke elemen lain dalam array.
 
-<h1 style="color:blue;">10. Enumerasi dan Structure:</h1>   
+<h1 style="color:blue;">10. Enumerasi dan Structure</h1>   
 
 **Enum (Enumerasi):** Enum merupakan tipe data yang memuat kumpulan konstanta yang sudah ditentukan sebelumnya. Ini memungkinkan definisi konstanta semantik yang bermakna dalam program.
 
