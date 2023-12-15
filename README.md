@@ -1,5 +1,14 @@
+<h1 align="center">LAPORAN PRAKTIKUM ALGORITMA dan PEMOROGRAMAN</h1>
 
-[![Header](https://github.com/piks16/jobsheet/blob/main/github-header-image%20(1).png)
+**NAMA: HASANUL FIKRI**
+
+**NIM: 23343040**
+
+**JURUSAN: INFORMATIKA**
+
+**UNIVERSITAS NEGERI PADANG**
+
+![Header](https://github.com/piks16/jobsheet/blob/main/github-header-image%20(1).png)
    <h1 style="color:blue;">1. Pengantar Algoritma dan Pemrograman</h1>
   algoritma dijelaskan sebagai serangkaian langkah yang sistematis dan logis untuk menyelesaikan masalah atau mencapai tujuan tertentu. Terdapat penekanan pada ciri-ciri penting algoritma, seperti keterbatasan langkah, definisi yang jelas, masukan, keluaran, efektivitas, dan keterstrukturan.
 
