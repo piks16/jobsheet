@@ -1,12 +1,15 @@
 <h1 align="center">LAPORAN PRAKTIKUM ALGORITMA dan PEMOROGRAMAN</h1>
+<h1 align="center">=====================================</h1>
 
-**NAMA: HASANUL FIKRI**
-
-**NIM: 23343040**
-
-**JURUSAN: INFORMATIKA**
-
-**UNIVERSITAS NEGERI PADANG**
+**NAMA : HASANUL FIKRI**                      
+                                                       
+**NIM : 23343040**                            
+                                                       
+**JURUSAN : INFORMATIKA**                     
+                                                       
+**UNIVERSITAS NEGERI PADANG**                 
+                                                       
+<h1 align="center">=====================================</h1>
 
 ![Header](https://github.com/piks16/jobsheet/blob/main/github-header-image%20(1).png)
    <h1 style="color:blue;">1. Pengantar Algoritma dan Pemrograman</h1>
